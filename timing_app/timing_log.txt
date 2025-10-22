@@ -1,0 +1,20 @@
+2025-10-20 23:06:09,260 [INFO] __main__: Starting ICR2 Timing Overlay 0.5.0
+2025-10-20 23:06:09,299 [INFO] core.icr2_memory: Initializing memory reader for version: DOS
+2025-10-20 23:06:09,299 [INFO] core.icr2_memory: Searching for window with keywords ['dosbox', 'indycar']
+2025-10-20 23:06:09,300 [ERROR] core.icr2_memory: No matching window found for ['dosbox', 'indycar']
+2025-10-20 23:06:16,955 [INFO] core.icr2_memory: Initializing memory reader for version: DOS
+2025-10-20 23:06:16,955 [INFO] core.icr2_memory: Searching for window with keywords ['dosbox', 'indycar']
+2025-10-20 23:06:16,956 [INFO] core.icr2_memory: Target window found: 'DOSBox ECE r4475, CPU speed:   340000 cycles, Frameskip  0, Program:  INDYCAR' (PID=7684)
+2025-10-20 23:06:16,957 [DEBUG] pymem: Process 7684 is being debugged
+2025-10-20 23:06:17,201 [INFO] core.icr2_memory: Signature found at 0x0E3B5D98, EXE base set to 0x0E315020
+2025-10-20 23:06:17,202 [INFO] core.reader: Initializing MemoryReader
+2025-10-20 23:06:17,342 [WARNING] core.reader: Memory read failed: invalid car-count 0 at 0xDAA18
+2025-10-20 23:06:17,380 [ERROR] overlays.running_order_overlay: [RunningOrderOverlay] Error occurred: invalid car-count 0 at 0xDAA18
+2025-10-20 23:06:17,382 [ERROR] overlays.track_map_overlay: [TrackMapOverlay] on_error: invalid car-count 0 at 0xDAA18
+2025-10-20 23:06:27,422 [INFO] core.reader: Memory read recovered after 504 failures
+2025-10-20 23:06:27,424 [INFO] overlays.track_map_overlay: [TrackMapOverlay] Loading track from: C:/cart\TRACKS\arling
+2025-10-20 23:06:27,424 [INFO] overlays.track_map_overlay: [TrackMapOverlay] Loading track from: C:/cart\TRACKS\arling
+2025-10-20 23:06:27,425 [ERROR] overlays.track_map_overlay: [TrackMapOverlay] Track load failed: [WinError 3] The system cannot find the path specified: 'C:/cart\\TRACKS\\arling'
+2025-10-20 23:06:28,503 [INFO] overlays.track_map_overlay: [TrackMapOverlay] Loading track from: C:/cart\TRACKS\stpete24
+2025-10-20 23:06:28,503 [INFO] overlays.track_map_overlay: [TrackMapOverlay] Loading track from: C:/cart\TRACKS\stpete24
+2025-10-20 23:06:28,504 [ERROR] overlays.track_map_overlay: [TrackMapOverlay] Track load failed: [WinError 3] The system cannot find the path specified: 'C:/cart\\TRACKS\\stpete24'
