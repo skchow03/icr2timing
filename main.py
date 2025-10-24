@@ -1,5 +1,5 @@
 """
-main.py
+main.py - testing
 
 Entry point: starts the control panel and wires it to the updater.
 """
